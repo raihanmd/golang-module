@@ -1,9 +1,9 @@
 package golang_module
 
-func SayHello() string {
-	return "Hello"
+func SayHello(name string) string {
+	return "Hello " + name
 }
 
-func SayHello2() string {
-	return "Hello v2"
+func SayGoodbye(name string) string {
+	return "Goodbye " + name
 }
